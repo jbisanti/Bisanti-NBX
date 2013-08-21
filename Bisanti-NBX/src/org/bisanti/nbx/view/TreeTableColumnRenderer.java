@@ -7,7 +7,6 @@ package org.bisanti.nbx.view;
 
 import java.awt.Component;
 import java.awt.Font;
-import javax.swing.JLabel;
 import javax.swing.JTable;
 import javax.swing.UIManager;
 import javax.swing.table.DefaultTableCellRenderer;
