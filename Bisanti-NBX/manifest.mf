@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-OpenIDE-Module: org.bisanti.nbx
-OpenIDE-Module-Localizing-Bundle: org/bisanti/nbx/Bundle.properties
+OpenIDE-Module: org.bisanti.nbx.view
+OpenIDE-Module-Localizing-Bundle: org/bisanti/nbx/view/Bundle.properties
 OpenIDE-Module-Specification-Version: 1.0
 
