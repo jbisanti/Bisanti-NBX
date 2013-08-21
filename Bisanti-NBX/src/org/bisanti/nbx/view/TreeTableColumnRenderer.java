@@ -28,10 +28,12 @@ public class TreeTableColumnRenderer extends DefaultTableCellRenderer
         // Update our base renderer
         super.getTableCellRendererComponent(table, value, isSelected, hasFocus, row, column);
         
+        column = table.convertColumnIndexToModel(column);
+        
         if (table instanceof ETable)
         {
             // If we're rendering a filtered column, bold the text
-            if (((ETable) table).getQuickFilterColumn() == table.convertColumnIndexToModel(column))
+            if (((ETable) table).getQuickFilterColumn() == column)
             {
                 super.setFont(table.getFont().deriveFont(Font.BOLD));
             }
